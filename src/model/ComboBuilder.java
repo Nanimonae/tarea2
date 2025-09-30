@@ -36,7 +36,7 @@ public class ComboBuilder {
             public String getDescription() {
                 return baseCombo.getDescription()
                         + ", Bebida: " + bebida
-                        + ", Acompañamiento: " + acompanamiento
+                        + ", Acompanamiento: " + acompanamiento
                         + ", Extra: " + extra;
             }
 
