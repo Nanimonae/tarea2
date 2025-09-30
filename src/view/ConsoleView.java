@@ -19,7 +19,7 @@ public class ConsoleView {
     public void mostrarCombo(combo combo) {
     System.out.println("\nResumen de pedido:");
     System.out.println(combo.getDescription());
-    System.out.println("Precio total: S/ " + combo.getPrice());
+    System.out.println("Precio final: S/ " + combo.getPrice());
     }
 
 }
