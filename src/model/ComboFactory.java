@@ -10,7 +10,7 @@ public class ComboFactory {
             case "vegetariano":
                 return new BaseCombo("Vegetariano", 12.0);
             default:
-                throw new IllegalArgumentException("Tipo de combo no válido");
+                throw new IllegalArgumentException("Tipo de combo invalido");
         }
     }
 }
